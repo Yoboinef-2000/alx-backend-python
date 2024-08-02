@@ -4,9 +4,9 @@
 from typing import List
 
 
-def sum_list(input_list: List) -> float:
+def sum_list(input_list: List[float]) -> float:
     """Sum'em up."""
-    sum = 0
-    for elementInTheList in input_list:
-        sum += elementInTheList
-    return sum
+    total = 0.0
+    for element in input_list:
+        total += element
+    return total
