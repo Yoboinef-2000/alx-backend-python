@@ -3,6 +3,7 @@
 """Type annotated sum_list function."""
 from typing import List
 
+
 def sum_list(input_list: List) -> float:
     """Sum'em up."""
     sum = 0
