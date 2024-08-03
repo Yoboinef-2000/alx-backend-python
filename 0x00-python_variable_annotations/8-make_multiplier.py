@@ -8,5 +8,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """Multiply'em up."""
     def laFunctioneMultiplier(x: float) -> float:
         return x * multiplier
-    
+
     return laFunctioneMultiplier
